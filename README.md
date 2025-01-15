@@ -83,7 +83,7 @@ npm run dev
 
 Once you have your Schwab credentials, you can proceed with either the automated or manual setup process detailed in the next section.
 
-# Setup Options
+## Setup Options
 
 You can set up this project either through our automated configuration script or manually. Both methods are fully supported.
 
@@ -141,7 +141,14 @@ When using the automated setup, your update workflow is streamlined:
    cp src/config/auth.template.ts src/config/auth.ts
    cp .env.template .env
    ```
-
+   
+4. **Save Your Configuration** 
+   After setting up your environment and authentication:
+   ```bash
+   bash scripts/save-instance-configuration.bash
+   ```
+   This creates template files that preserve your configuration for future updates.
+   
 ## B. Manual Setup
 
 If you prefer more direct control over the setup process, you can configure everything manually:
