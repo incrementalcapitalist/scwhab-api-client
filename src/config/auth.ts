@@ -5,7 +5,7 @@ const clientSecret = import.meta.env.VITE_SCHWAB_CLIENT_SECRET
 export const AUTH_CONFIG = {
   clientId: clientId as string,
   clientSecret: clientSecret as string,
-  redirectUri: 'https://schwab.mitzvah.capital/callback',
+  redirectUri: 'https://schwab.incremental.capital/callback',
   authorizationEndpoint: 'https://api.schwabapi.com/oauth/authorize',
   tokenEndpoint: 'https://api.schwabapi.com/oauth/token',
   apiEndpoint: 'https://api.schwabapi.com/marketdata/v1',
