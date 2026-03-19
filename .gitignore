@@ -31,3 +31,4 @@ src/config/auth.ts
 # Configuration templates
 *.template.ts
 .env.template
+.claude/settings.local.json
